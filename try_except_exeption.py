@@ -1,0 +1,7 @@
+try:
+    a, b = input('두 수를 넣으세요.').split()
+    result = (int(a)/int(b))
+    print(result)
+except Exception as e:
+    print('에러의 형태는 {}'.format(e))
+
